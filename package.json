@@ -1,0 +1,16 @@
+{
+  "name": "jones-automation",
+  "version": "1.0.0",
+  "description": "Playwright automation for the Jones QA Automation exercise",
+  "scripts": {
+    "setup": "npx playwright install chromium",
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
